@@ -1,8 +1,8 @@
 locals {
   aws_region = "eu-central-1"
 
-  vpc_cidr = "10.10.0.0/16"
-  vpc_cidr_publicA  = "10.10.1.0/24"
+  vpc_cidr         = "10.10.0.0/16"
+  vpc_cidr_publicA = "10.10.1.0/24"
 
   ami_ubuntu_21_04 = "ami-0330191f6d64c38ba"
 
